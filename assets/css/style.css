@@ -67,6 +67,10 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -104,4 +108,9 @@ header {
     letter-spacing: 2px;
 }
 
-/*-------------------------------------------------------------Colours  */
+/*-------------------------------------------------------------Hover.css  *
+
+.hvr-radial-out:before {
+    background: rgba( 0, 0, 0, 0.2)
+    height: 120px;
+}
