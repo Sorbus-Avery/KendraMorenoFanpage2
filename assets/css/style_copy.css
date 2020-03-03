@@ -119,8 +119,7 @@ header {
 }
 
 
-.menuitem span {  
-            /* ---------------play with this section-----------note*/
+.menuitem span {          /* ---------------play with this section-----------note*/
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -153,26 +152,11 @@ footer {
     display: inline-block;
 }
 
-.footer-about a
-.footer-books a {
+.footer-about
+.footer-books {
     text-decoration: none;
     color: #fff;
-    width: 100%;
-    text-align: center;
 }
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    color: #fff;
-}
-
 .social-links {
     padding-bottom: 15px;
 }
@@ -197,15 +181,4 @@ footer {
     background: #e84610;
 } 
 
-#footer-details {
-    padding: 20px;
-}
 
-.footer-link {
-    color:#fff;
-}
-
-a.hvr-grow.footer-link:hover {
-    text-decoration: none;
-    color: deeppink;
-}
