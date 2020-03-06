@@ -8,16 +8,21 @@ html {
 }
 */
 .bg-color-name-title {
-    background-color: #28184f;
+    background-color: #626262;
 }
 
 .bg-color-side-panel {
     background-color: #c1ffcf;
 }
 
-.bg-color-main-panel {
+.bg-color-bio {
     background-color:#f9cdea;
-} 
+}
+
+.bg-color-bio-blurb {
+    background-color: rgba(0, 0, 0, 0,);             /*why isn't this working?    switch to transparent white*/
+}
+ 
 .ui-menu-color-home {
   background-color: #cc5ba6;
     color:#c1ffcf;
@@ -111,7 +116,7 @@ header {
 /*-----possible change image background color-------------------------------------------------note---*/
 .logo {
     background: url("../images/kendra.jpg");
-    background-color: #28184f;
+    background-color: #38ad53;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
