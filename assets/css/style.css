@@ -52,7 +52,8 @@ html {
 }
 
 .main-section-heading {
-    color:#38ad53;
+    color:#188a32;
+    text-align: center;
 }
 
 .side-panel-heading {
@@ -296,7 +297,7 @@ a.hvr-grow.footer-link:hover {
     margin-bottom: 20px;
     display: block;
     clear: both;
-    color:#8c005a
+    color:#8c005a;
 }
 
 .side-panel-item .key,
@@ -339,3 +340,31 @@ a.hvr-grow.footer-link:hover {
     color: #fff;
 }
 */
+/*-----------------------------------------------------------------------Books--*/
+
+.category-titles {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 35px;
+    color:#188a32;
+}
+
+.books {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+}
+
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+
+  /*  .side-panel-heading
+    .side-panel-item {
+        text-align: center;
+    }*/
+}
