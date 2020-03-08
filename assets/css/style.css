@@ -351,6 +351,24 @@ a.hvr-grow.footer-link:hover {
 .books {
     font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
+    color: #28184f;
+}
+
+.show-me-heading {
+
+}
+
+.h3-book-heading {
+
+}
+
+.specific-books {
+    color: #8c005a;
+
+}
+
+.collaborating-authors {
+    color:#188a32;
 }
 
 /* ----------------------------------------Media Queries */
