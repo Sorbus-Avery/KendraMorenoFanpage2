@@ -432,14 +432,18 @@ color: #28184f;
 }
 
 .amazon-button {
-    float: right;
+   align-items: right;
     margin-top: 30px;
+}
+
+.amazon-button-div {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .book-description {
     background-color: #f79bd7;
     font-family: "Josefin Sans", sans-serif;
-
 }
 
 /* ----------------------------------------Media Queries */
