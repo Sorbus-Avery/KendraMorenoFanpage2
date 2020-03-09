@@ -7,8 +7,7 @@ html {
     background-color: #525252;
 }
 */
-head,
-header {
+.bg-color-name-title {
     background-color: #28184f;
 }
 
@@ -22,45 +21,42 @@ header {
 .ui-menu-color-home {
   background-color: #cc5ba6;
     color:#c1ffcf;
+    margin-right:1px;
 }
+.ui-menu-color-home-current {
+  background-color: #38ad53;
+    color:#c1ffcf;
+    margin-right:1px;
+}
+
 .ui-menu-color-about {
+    background-color:#cc5ba6;
+    color: #f9cdea;
+    margin-right:1px;
+}
+.ui-menu-color-about-current {
     background-color: #38ad53;
     color: #f9cdea;
+    margin-right:1px;
 }
 .ui-menu-color-books {
   background-color: #cc5ba6;
     color:#c1ffcf;
+    margin-right:1px;
 }
-.ui-menu-color-triad {
+.ui-menu-color-books-current {
+  background-color: #38ad53;
+    color:#c1ffcf;
+    margin-right:1px;
+}
+.ui-menu-color-links {
+    background-color: #cc5ba6;
+    color: #f9cdea;    
+}
+.ui-menu-color-links-current {
     background-color: #38ad53;
     color: #f9cdea;
 }
-
-
-/*------------------------------------------------------------------work on fixing the colors and such on this
-.current-home {
-  color: #38ad53;
-  font-family:"Amatic SC", sans-serif;
-}
-.current-about {
-    color:#cc5ba6;
-    font-family:"Amatic SC", sans-serif;
-}
-.current-books {
-    color: #38ad53;
-    font-family:"Amatic SC", sans-serif;
-}
-.current-triad {
-    color:#cc5ba6;
-    font-family:"Amatic SC", sans-serif;
-}
-
-.menuitem-current a i {
-
-}
-
-*/
-
 .social-links li a i:hover {
     background-color: deeppink;
 }
@@ -172,15 +168,15 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color:#cc5ba6; /*---------------------------------------------font color?*/
+    color:#fff; /*---------------------------------------------font color?*/
 }
 
 .subtitle {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 25px;
-    font-family:"Amatic SC", sans-serif;
+    font-family:"Josefin Sans", sans-serif;
     font-weight:300;
-    color: #38ad53; 
+    color: #fafafa; 
 }
 
 .list-inline-item:not(:last-child) {

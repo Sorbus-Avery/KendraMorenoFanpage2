@@ -7,8 +7,7 @@ html {
     background-color: #525252;
 }
 */
-head,
-header {
+.bg-color-name-title {
     background-color: #28184f;
 }
 
@@ -31,13 +30,10 @@ header {
   background-color: #cc5ba6;
     color:#c1ffcf;
 }
-.ui-menu-color-triad {
+.ui-menu-color-links {
     background-color: #38ad53;
     color: #f9cdea;
 }
-
-
-/*------------------------------------------------------------------work on fixing the colors and such on this
 .current-home {
   color: #38ad53;
   font-family:"Amatic SC", sans-serif;
@@ -50,16 +46,18 @@ header {
     color: #38ad53;
     font-family:"Amatic SC", sans-serif;
 }
-.current-triad {
+.current-links {
     color:#cc5ba6;
     font-family:"Amatic SC", sans-serif;
 }
 
-.menuitem-current a i {
+.current-page {
 
 }
 
-*/
+.menuitem-current a i {
+    
+}
 
 .social-links li a i:hover {
     background-color: deeppink;
@@ -172,15 +170,15 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color:#cc5ba6; /*---------------------------------------------font color?*/
+    color:#fff; /*---------------------------------------------font color?*/
 }
 
 .subtitle {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 25px;
-    font-family:"Amatic SC", sans-serif;
+    font-family:"Josefin Sans", sans-serif;
     font-weight:300;
-    color: #38ad53; 
+    color: #fafafa; 
 }
 
 .list-inline-item:not(:last-child) {
