@@ -427,13 +427,18 @@ color: #28184f;
     margin-bottom: 15px;
 }
 
-.summary-book-list,
+.summary-book-list {
+     background-color: #f79bd7;
+    padding: 30px;
+}
+
+
 .book-div {
     background-color: #f79bd7;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 
 }
 .book-div h6 {
@@ -459,6 +464,17 @@ color: #28184f;
 .book-description {
     background-color: #f79bd7;
     font-family: "Josefin Sans", sans-serif;
+}
+
+.return-to-top {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    color: hsl(257, 53%, 20%);
+}
+
+.return-to-top.hvr-grow:hover {
+    text-decoration: none;
+    color: #188a32;
 }
 
 /* ----------------------------------------Media Queries */
