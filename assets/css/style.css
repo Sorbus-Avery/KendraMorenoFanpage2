@@ -77,12 +77,17 @@ header {
     font-size: 40px;
 }
 
+.index-main-section {
+    background-color:#f9cdea;
+}
+
 .bg-main-image {
-    background: url("../images/kendradino.jpg");
+    background: url("../images/dino-w-border.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height:360px;
+    min-height:360px;    
+    background-color:#f9cdea;
 }
 
 /*-------------------------------------------------------------Heading  */
