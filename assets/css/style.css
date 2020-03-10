@@ -118,6 +118,13 @@ h4 {
     font-weight:bold;
     color: #fafafa;
     font-size: 25px;
+}
+
+.general-sub-social {
+    font-family:"Amatic SC", sans-serif;
+    font-weight:bold;
+    color: #fafafa;
+    font-size: 25px;
     
           /*-------------------------------------------------- adjust color*/    
 }
@@ -249,6 +256,7 @@ footer {
     background-color:#38ad53;   /*-------------------------------------------------------------colors*/
     min-height: 120px;
     margin:0;
+    text-align: center;
 }
 
 .inline-block {
