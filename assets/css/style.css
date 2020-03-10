@@ -482,6 +482,13 @@ color: #28184f;
     color: #188a32;
 }
 
+/*-----------------------------------------Book Covers */
+
+.headcase-cover {
+    background: url("../images/covers/headcase.jpg");
+}        
+    
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
@@ -491,9 +498,4 @@ color: #28184f;
         margin: 0 auto;
         max-width: 50%;
     }
-
-  /*  .side-panel-heading
-    .side-panel-item {
-        text-align: center;
-    }*/
 }
