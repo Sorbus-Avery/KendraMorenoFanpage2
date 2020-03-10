@@ -35,9 +35,31 @@ header {
     background-color: #38ad53;
     color: #f9cdea;
 }
-.menuitem-current {
-   background-color: #28184f;
+.current-home {
+  background-color: #28184f;
+  font-family:"Amatic SC", sans-serif;
 }
+.current-about {
+   background-color: #28184f;
+    /*font-family:"Amatic SC", sans-serif; */
+    padding-bottom: 10px;
+    margin-top:10px;
+}
+.current-books {
+    background-color: #28184f;
+    font-family:"Amatic SC", sans-serif;
+}
+.current-triad {
+    background-color: #28184f;
+    font-family:"Amatic SC", sans-serif;
+}
+
+/*------------------------------------------------------------------work on fixing the colors and such on this/*
+.menuitem-current a i {
+
+}
+
+*/
 
 .social-links li a i:hover {
     background-color: deeppink;
