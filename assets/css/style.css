@@ -153,7 +153,7 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color:#cc5ba6; 
+    color:#ff65cb; 
 }
 
 .subtitle {
@@ -161,7 +161,7 @@ header {
     margin-bottom: 25px;
     font-family:"Amatic SC", sans-serif;
     font-weight:300;
-    color: #38ad53; 
+    color: #37ff64; 
 }
 
 .list-inline-item:not(:last-child) {
